@@ -5,7 +5,10 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "lint": "nx lint",
+    "e2e": "nx e2e",
+    "prettier": "prettier --config .prettierrc --write \"apps/**/*.{ts,tsx}\""
   },
   "private": true,
   "dependencies": {
