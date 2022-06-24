@@ -22,6 +22,6 @@ describe('App', () => {
       </BrowserRouter>
     )
 
-    expect(getByText(/Welcome sandbox/gi)).toBeTruthy()
+    expect(getByText(/Home/gi)).toBeTruthy()
   })
 })
