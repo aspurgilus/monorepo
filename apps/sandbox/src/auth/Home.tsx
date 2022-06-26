@@ -13,10 +13,11 @@ const Home = () => {
     }
   }, [auth.isAuth, navigate])
 
-
   return (
     <Container>
-      <Typography variant='h1' component='h1'>Home</Typography>
+      <Typography variant="h1" component="h1">
+        Home
+      </Typography>
     </Container>
   )
 }

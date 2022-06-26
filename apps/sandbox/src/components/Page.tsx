@@ -1,8 +1,8 @@
 import type { HTMLProps, ReactNode } from 'react'
 import { forwardRef } from 'react'
-import { Helmet } from "react-helmet";
-import { makeStyles } from "tss-react/mui"
-import type { Theme } from '@mui/material';
+import { Helmet } from 'react-helmet'
+import { makeStyles } from 'tss-react/mui'
+import type { Theme } from '@mui/material'
 
 interface PageProps extends HTMLProps<HTMLDivElement> {
   children?: ReactNode

@@ -5,7 +5,7 @@ const firebaseConfig = {
   storageBucket: process.env.NX_STORAGE_BUCKET,
   messagingSenderId: process.env.NX_MESSAGING_SENDER_ID,
   appId: process.env.NX_APP_ID,
-  measurementId: process.env.NX_MEASUREMENT_ID
-};
+  measurementId: process.env.NX_MEASUREMENT_ID,
+}
 
 export default firebaseConfig

@@ -9,8 +9,8 @@ import App from './app/App'
 import './firebase'
 
 export const muiCache = createCache({
-  'key': 'mui',
-  'prepend': true
+  key: 'mui',
+  prepend: true,
 })
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)

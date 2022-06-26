@@ -5,7 +5,7 @@ import { UserState } from '../../types/state'
 const initialState: UserState = {
   email: '',
   token: '',
-  id: 0
+  id: 0,
 }
 
 const userSlice = createSlice({

@@ -1,5 +1,5 @@
 export type UserState = {
-  email: string,
-  token: string,
+  email: string
+  token: string
   id: number
 }
